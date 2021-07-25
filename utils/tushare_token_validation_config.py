@@ -1,7 +1,5 @@
 # *_*coding:utf-8 *_*
-'''
-Descri：
-'''
+# TODO：加商誉，质押率，负债率，存货，营收账款，净利润
 import datetime
 import tushare as ts
 from settings.envs import CONFIG
