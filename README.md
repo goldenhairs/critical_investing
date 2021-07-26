@@ -6,6 +6,8 @@
     <p>大数投资</p>
 </h3>
 
+<iframe width="100%" height="800px" src="bar_base_with_animation.html"></iframe>
+
 
 <p align="center">
     <a href="https://github.com/szj2ys/critical_investing">
@@ -19,7 +21,6 @@
     </a>
 </p>
 
-此项目中国人大[齐东平](http://www.rmbs.ruc.edu.cn/show-77-575-1.html)教授的`大数投资`的程序化实现。
 
  
 
@@ -69,4 +70,8 @@
 - [齐东平：春暖花开投资正当时](https://www.mbachina.com/html/rbs/202003/221411.html)
 - [齐东平：从历史发展机遇思考做沪深股市投资](https://emba.rmbs.ruc.edu.cn/news_info.php?ID=2282)
 - [齐东平：以大数投资分享中国上市公司创造的财富](http://www.rmbs.ruc.edu.cn/show-110-4142-1.html)
+
+## 鸣谢
+- [中国人民大学](http://www.rmbs.ruc.edu.cn)
+- [齐东平教授](http://www.rmbs.ruc.edu.cn/show-77-575-1.html)
 
