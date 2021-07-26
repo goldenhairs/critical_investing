@@ -5,18 +5,74 @@
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//pyecharts.org/static/vue.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
-  <div id="app"></div>
+  <style type="text/css">
+    .markdown-section {
+        max-width: 95%;
+    }
+  </style>
+  <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'critical-investing',
+      repo: 'https://github.com/szj2ys/critical_investing.git',
+      coverpage: true,
+      autoHeader: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 4,
+      auto2top: true,
+      mergeNavbar: true,
+      homepage: 'README.md',
+      ext: '.md',
+      search: {
+        placeholder: {
+          '/': '搜索 (Search)',
+          '/zh-cn/': '搜索 (Search)',
+          '/en-us/': 'Type to search'
+        },
+        noData: {
+          '/': '找不到结果 (Not Found)',
+          '/zh-cn/': '找不到结果 (Not Found)',
+          '/en-us/': 'No Results'
+        }
+      },
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/szj2ys/critical_investing.git">critical_investing</a> &copy;2019 - 2020.</span>',
+            '<span>Powered By <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+      ],
+      copyCode: {
+        buttonText: {
+          '/': '点击复制 (Click to Copy)'
+        },
+        errorText: {
+          '/': '错误 (Error)'
+        },
+        successText: {
+          '/': '复制 (Copy)'
+        }
+      }
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//pyecharts.org/static/docsify-copy-code.min.js"></script>
+  <script src="//pyecharts.org/static/search.js"></script>
+  <script src="//pyecharts.org/static/docsify.min.js"></script>
+  <script src="//pyecharts.org/static/prism-python.min.js"></script>
+  <script src="//pyecharts.org/static/zoom-image.js"></script>
 </body>
 </html>
