@@ -9,3 +9,4 @@ fire
 sqlitedict
 tenacity
 deco
+pyecharts==1.9.0
