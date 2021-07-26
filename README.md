@@ -19,7 +19,7 @@
     </a>
 </p>
 
-此项目是我的老师[齐东平](http://www.rmbs.ruc.edu.cn/show-77-575-1.html)教授的`大数投资`的程序化实现。
+此项目中国人大[齐东平](http://www.rmbs.ruc.edu.cn/show-77-575-1.html)教授的`大数投资`的程序化实现。
 
  
 
