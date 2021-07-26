@@ -8,6 +8,8 @@ quant/
 .config.json
 *.log
 *.sqlite
+*demo*
+*test*
 
 __MACOSX/
 .DS_Store
