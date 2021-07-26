@@ -24,13 +24,9 @@ from sqlitedict import SqliteDict
 from settings.envs import *
 import doger
 logger = doger.guru(LOG_LEVEL, __file__)
+from settings.envs import CONFIG
 
-# token_list = env.get_tushare_token()
-token_list = [
-    "c473f86ae2f5703f58eecf9864fa9ec91d67edbc01e3294f6a4f9c32",
-    "8245313cabb6239a4dce3591e2c64fa199611ee7ade564cf9e437b61",
-    "d94b8d1af9f3110dca7acf2e85b4bf10b7d33de74491de8f671c4b8b",
-]
+token_list = CONFIG["tushare_tokens"]
 token = choice(token_list)  # 随机选择一个token
 pro = ts.pro_api(token)
 
