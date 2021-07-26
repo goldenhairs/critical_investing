@@ -6,9 +6,6 @@
     <p>大数投资</p>
 </h3>
 
-<iframe width="100%" height="800px" src="bar_base_with_animation.html"></iframe>
-
-
 <p align="center">
     <a href="https://github.com/szj2ys/critical_investing">
         <img src="https://img.shields.io/github/last-commit/szj2ys/critical_investing?color=blue" alt="GitHub last commit"/>
@@ -21,6 +18,8 @@
     </a>
 </p>
 
+
+<iframe width="100%" height="800px" src="https://github.com/szj2ys/critical_investing/raw/master/bar_base_with_animation.html"></iframe>
 
  
 
