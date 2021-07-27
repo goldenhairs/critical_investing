@@ -20,7 +20,6 @@
 
 ## 图表
 <iframe width="100%" height="800px" src="Map/china_gdp_from_1980.html"></iframe>
-<iframe width="100%" height="800px" src="index2.html"></iframe>
 
  ## 股票筛选条件
 - 市盈率：0 < PE（TTM） < 12
