@@ -3,7 +3,6 @@
 Author：szj
 Descri：
 """
-import time
 import sys, os
 from pathlib import Path
 
@@ -18,7 +17,6 @@ from random import choice
 from sqlitedict import SqliteDict
 from critical_investing import mysql
 from tenacity import retry, stop_after_attempt, wait_random, wait_fixed
-import numpy as np
 from settings import files
 from settings.sqls import tushare_fina_indicator
 

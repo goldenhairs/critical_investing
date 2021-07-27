@@ -9,11 +9,9 @@ from pathlib import Path
 ROOT = Path(os.path.abspath(__file__)).parent.parent
 sys.path.append(str(ROOT))
 import tushare as ts
-import pandas as pd
 import datetime
-import random, sys, os
 from random import choice
-from utils import now
+from utils.common import now
 from critical_investing import mysql
 from tenacity import retry, wait_fixed, wait_random
 

@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="https://github.com/szj2ys/critical_investing/raw/master/datasets/resources/logo.png"/>
+    <img width="200" src="https://gitee.com/szj2ys/Pictures/raw/master/logo/critical_investing_logo.png"/>
 </p>
 
 <h3 align="center">

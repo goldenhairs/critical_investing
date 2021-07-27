@@ -18,9 +18,6 @@ from settings import files
 from settings.sqls import tushare_fina_indicator, tushare_income
 
 import tushare as ts
-import pandas as pd
-import datetime
-import random
 import datetime
 from random import choice
 from sqlitedict import SqliteDict

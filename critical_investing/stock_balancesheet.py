@@ -21,7 +21,7 @@ from sqlitedict import SqliteDict
 from settings.envs import CONFIG
 
 token_list = CONFIG["tushare_tokens"]
-token = choice(token_list)  # 随机选择一个token
+token = choice(token_list)
 pro = ts.pro_api(token)
 
 today = datetime.datetime.now().strftime("%Y%m%d")

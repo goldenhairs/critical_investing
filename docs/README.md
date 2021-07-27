@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="https://gitee.com/szj2ys/Pictures/raw/master/logo/critical_investing_logo.png"/>
+    <img width="80" src="https://gitee.com/szj2ys/Pictures/raw/master/logo/critical_investing_logo.png"/>
 </p>
 
 <h3 align="center">
@@ -18,10 +18,18 @@
     </a>
 </p>
 
-
+## 图表
 <iframe width="100%" height="800px" src="Map/china_gdp_from_1980.html"></iframe>
+<iframe width="100%" height="800px" src="index2.html"></iframe>
 
- 
+ ## 股票筛选条件
+- 市盈率：0 < PE（TTM） < 12
+- 市净率：0 < PB < 2
+- 股息率：0 < DV（TTM）
+- 商誉占总资产比重小于`0.3`
+- 负债率小于`0.5`
+
+
 
 ## 大数投资的操作框架
 - 以概率抽样方法选企业做组合投资
