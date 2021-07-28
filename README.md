@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="https://gitee.com/szj2ys/Pictures/raw/master/logo/critical_investing_icon.svg"/>
+    <img width="200" src="https://gitee.com/szj2ys/Pictures/raw/master/logo/elephant.svg"/>
 </p>
 
 <h3 align="center">
